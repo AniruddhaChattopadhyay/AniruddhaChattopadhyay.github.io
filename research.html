@@ -1,0 +1,115 @@
+<!DOCTYPE html> 
+<html lang="eng"> 
+
+<head>
+<!-- Professional Website
+     Date: October 3, 2016 -->
+    <meta charset="utf-8" />
+    <meta name="author" content="Aniruddha Chattopadhyay">
+    <meta name="keywords" content="Indian Institue of Technology Kharagpur">
+    <meta name="description" content="Aniruddha Chattopadhyay Professional Website">
+    <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes"/>
+
+    <title>Aniruddha Chattopadhyay</title>
+    <link rel="stylesheet" media="all" type="text/css" href="css/styles.css" />
+    <script type="text/javascript" src="js/jquery-2.2.1.min.js" ></script>
+    <script type="text/javascript" src="js/scripts.js" ></script>
+</head>
+
+<body>
+    <div id="top_row">
+        <header>
+             <h1><a href = "https://erp.iitkgp.ac.in/vertical.pdf" target="_blank">Aniruddha Chattopadhyay</a></h1>
+            <h3>Quality Engineering Design and Manufacturing, <a href="http://www.iitkgp.ac.in/" target="_blank">Indian Institute of Technology Kharagpur</a></h3>
+        </header>
+
+        <nav>
+            <a href="index.html">About</a>
+            <a href="publications.html">Publications</a>
+            <a class="selected" href="research.html">Projects</a>
+            <a href="Resume.pdf" target="_blank">Resume</a>
+            <a href="miscellaneous.html">Work Experiences</a>
+			<!-- <a href = "course certificates.html">Certificates</a> -->
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+
+    <div id="container">	
+        <div id="content">
+            <img src="images/air cargo.jpg" alt="image" style="float:right;width:350px;height:300px;"/>
+                <h4>Air Cargo Shipment optimization under <a href="https://scholar.google.co.in/citations?user=xDL-rrsAAAAJ&hl=en">Prof. Manoj kumar Tiwari</a>, Department Of Industrial and Systems Engineering,May 2019-July 2019</h4>
+                Developed an linear programming model for minimizing the cost of an air cargo shipment using concept of Integration,consolidation and deconsolidation. Solved the model
+                using a heuristic ant colony optimization algorithm in python. This significantly increases the profit of the freight forwarders. 
+                <a href = "#" target="_blank">GitHub Code is available here</a>
+                </br>
+                </br>
+                
+                <img src="images/Care4U.PNG" alt="image" style="float:left;width:500px;height:700px;"/>
+                <h4>Care4U | Artificcial Inteligence based Elderly health Care Application</h4>
+                    <li>
+                        Built two android applications (in Android Studios) one for the elderly people and one for the caregivers.
+                    </li>
+                    <li>
+                        The app for the elderly people had a neural net trained on the MOBIACT dataset stored as a <b>tensorflow lite model</b> in the phone to detect falls and alert the caregiver.
+                    </li>
+                    <li>
+                        Used <b>AWS rekognize</b> to detect the emotion of the person and keep a record of the emotions with a timestamp in the application of the caregiver.
+                    </li>
+                    <li>
+                        Used <b>IBM Watson</b> to create a personalized multilingual voice controlled chatbot for the elderly person. The chatbot is automatically updated with the mood of the
+                        person and accordingly fine tunes the conversation with the elderly person. If the person in sad ,it can automatically play funny videos or a nostalgic song to cheer up the
+                        person. It can also look up for doctors nearby, search for hospitals, give a call to any of the contacts including the caregiver.
+                    </li>
+                    <li>
+                        The app keeps track of medical history, allergy history as well as give medicine reminder to both the elderly as well as the caregiver. The medicine to be taken can be added as
+                        a image and the app will automatically update its database in FireBase with the name of the medicine using text recognition in images.
+                    </li>
+                    <li>    
+                        Real time Location tracking as well as a pedometer is built in as features of the app.
+                    </li>
+                    <li>
+                        This app was built as a part of a Hackathon . The major sponsors were Capgemini, Network
+                        Marvels, Adapty and NVIDIA. The App got nation wide media coverage by 
+                        <a href="https://www.hindustantimes.com/education/care4u-iit-kharagpur-students-develop-artificial-intelligence-app-for-elderly-care/story-tvvUzYQno5JV51g9a6YiVK.html">Hindusthan Times</a>,
+                        <a href="https://www.indiatoday.in/education-today/news/story/iit-kharagpur-students-create-ai-mobile-app-for-elderly-which-can-become-a-digital-caregiver-1572304-2019-07-22" target="_blank">India Today</a>
+                        <a href="https://www.jagranjosh.com/news/ai-based-app-care4u-developed-by-iit-kgp-students-aims-towards-better-elderly-care-150598">jagranjosh</a>
+                    </li>
+                </br>
+                </br>
+
+                <img src="images/IIT_Kharagpur_Logo.svg.png" alt="image" style="float:left;width:180px;height:180px;"/>
+                <h4>CynoSure | One stop solution for every transortation Problem</h4>
+                    <li>The app allows users to do real-time bus/autorickshaw tracking and also gives them estimate time of waiting at the bus stop along with 
+                        estimated journey time so that they can optimize their journey schedules accordingly.</li>
+                    
+                    <li>It also gives them the option of choosing from either cheapest or fastest means of transport available.
+                        Gives them all possible combinations of traveling options.</li>
+                    
+                    <li>The app also shows the users how crowded a bus is and accordingly lets them choose whether they want to travel via this bus or wait or the next one. 
+                        The dilemma that users face is if they leave a bus just right now they don’t know how long will they have to wait for the next bus 
+                        but our app addresses that by showing all the bus that is going to pass through that route and with an estimated time of arrival,
+                        estimate time of journey and an estimated crowd. 
+                        Thus making the whole journey predictable.</li>
+                </br>
+                </br>
+
+                <img src="images/IIT_Kharagpur_Logo.svg.png" alt="image" style="float:left;width:180px;height:180px;"/>
+                <h4>Automated the Teaching Feedback System at IIT KGP | (Self Project)</h4>
+                <li>Self project to automatize the teaching feedback system for more than <b>10000 students</b></li>
+                <li>Used Selenium in python to automatize the web browser action and Tesseract OCR to break the captcha code</li>
+                <li>Achieved 4x increase in the review filliup process.</li>
+                The Project Presentation cum report can be found <a href = "Presentation1.pptx" target="_blank"> here </a>. The Team certificate is available <a href = "images/gymkhana DA.jpg" target="_blank">here</a>.
+                </br>
+                </br>
+        </div>
+
+        <footer>
+        <hr/>
+        &copy 2020 Aniruddha Chattopadhyay</br>
+        <a href="https://github.com/saranshqm" target="_blank"><img src="images/github_logo.png" alt="GitHub" height="30"></a>
+        <a href="https://www.linkedin.com/in/saransh-gupta-a42708153/" target="_blank"><img src="images/linkedin_logo.png" alt="LinkedIn" height="30"></a></br> 
+        Last updated: June 3, 2020
+        </footer>
+    </div>
+</body>
+
