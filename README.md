@@ -1,2 +1,2 @@
-# AniruddhaChattopadhyay.github.io
- personal website @ https://AniruddhaChattopadhyay.github.io/
+# aniruddhaChattopadhyay.github.io
+ personal website @ https://aniruddhachattopadhyay.github.io/
